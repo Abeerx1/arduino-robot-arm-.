@@ -1,5 +1,9 @@
 The first Make sure that there is a rose system, write in the terminal roscore
+
+
 Then type these commands
+
+
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
@@ -65,6 +69,7 @@ roslaunch robot_arm_pkg check_motors.launch
 
 
 
+![Screenshot from 2022-08-06 04-25-41](https://user-images.githubusercontent.com/109627340/183228325-a45d5c40-4a3f-43fc-9071-510fb73e0a73.png)
 
 
 
